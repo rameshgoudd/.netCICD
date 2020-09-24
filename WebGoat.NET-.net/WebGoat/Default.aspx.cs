@@ -17,7 +17,6 @@ namespace OWASP.WebGoat.NET
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
             //do a quick test.  If the database connects, inform the user the database seems to be working.
             if (du.TestConnection())
             {
